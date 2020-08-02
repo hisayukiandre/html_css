@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-visual {
+	width: 100%;
+	height: 400px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.main-visual-text {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px 0 0 20px;
+}
+
+main {
+	width: 840px;
+	margin: 0 auto;
+}
+.main-box {
+	margin-top: 50px;
+}
+
+.hr-middle {
+	width: 840px;
+	margin: 30px 0;
+}
+
+.hr-bottom {
+	width: 840px;
+	margin: 30px 0 50px 0;
+}
+/* <hr>を使うのもありだが、border-bottomもつかえる
+　　今回の場合
+　　border-bottom: 1px solid #d1d1d1;
+　　と設定することで線が引ける */
